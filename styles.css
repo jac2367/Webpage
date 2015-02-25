@@ -26,6 +26,13 @@ body{
 	background-position: center;
 	padding: 10px;
 }
+.left {
+	width: 40px;
+	height: 100%;
+	float: left;
+	font-family: Bangla MN;
+	font-weight: bold;
+}
 h1 {
 	font-family: Bangla MN;
 	font-size: 50px;
@@ -45,7 +52,17 @@ p {
 }
 a {
 	color: black;
+	font-family: Bangla MN;
+	font-weight: bold;
 }
 a:hover{
-	color: grey;
+	color: white;
+}
+.submenu {
+	padding-left: 29px;
+	font-size: 12px;
+}
+section {
+	font-family: Bangla MN;
+	font-weight: bold;
 }
