@@ -1,0 +1,51 @@
+nav ul li{
+	display: inline;
+	font-family: Bangla MN;
+	font-size: 15px;
+}
+.headshot {
+	width: 150px;
+	height: auto;
+	position: center;
+	border-radius: 75px;
+}
+img {
+	width: 75%;
+	height: auto;
+	position: center;
+	padding: 10px;
+}
+body{
+	text-align: center;
+	font-size: 80%;
+	font-family: "Courier New", Courier, monospace;
+	background-image: url(images/Barnard.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	padding: 10px;
+}
+h1 {
+	font-family: Bangla MN;
+	font-size: 50px;
+	font-weight: bold;
+}
+h2{
+	font-family: Bangla MN;
+	font-size: 35px;
+	/*font-weight: bold;*/
+}
+p {
+	font-family: cambria;
+	font-size: 20px;
+	color: black;
+	/*background-color: white;
+	border: 1px solid black;*/
+}
+a {
+	color: black;
+}
+a:hover{
+	color: grey;
+}
