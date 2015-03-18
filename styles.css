@@ -27,6 +27,7 @@ body{
 	background-attachment: fixed;
 	background-position: center;
 	padding: 10px;
+	font-family: Bangla MN;
 }
 .left {
 	width: 40px;
@@ -36,22 +37,19 @@ body{
 	font-weight: bold;
 }
 h1 {
-	font-family: Bangla MN;
 	font-size: 50px;
 	font-weight: bold;
 }
 h2{
-	font-family: Bangla MN;
 	font-size: 20px;
-	/*text-align: center;*/
-	/*font-weight: bold;*/
+}
+h3 {
+	font-size: 12px;
+	display: inline-block;
 }
 p {
-	font-family: cambria;
-	font-size: 20px;
+	font-size: 15px;
 	color: black;
-	/*background-color: white;
-	border: 1px solid black;*/
 }
 a {
 	color: black;
@@ -85,4 +83,15 @@ span img {
 
 #last {
 	width: 93%;
+}
+
+div > div {
+	border: 5px double black;
+	clear: both;
+	width: 70%;
+	display: inline-block;
+	background-color: white;
+}
+div > h2 {
+	text-decoration: underline;
 }
